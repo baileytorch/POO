@@ -1,4 +1,5 @@
 import autor
+
 class Libro(autor):
     def __init__(self, isbn, titulo, id_autor):
         super().__init__(id_autor)
