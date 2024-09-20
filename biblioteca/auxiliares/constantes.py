@@ -1,13 +1,5 @@
 from datetime import datetime
 
-consulta_sql = "USE biblioteca"
-
-tipo_usuario = {
-    "id": 1, "tipo": "Administrador",
-    "id": 2, "tipo": "Funcionario",
-    "id": 3, "tipo": "Usuario"
-}
-
 estado_usuario = {
     "id": 1, "estado": "Habilitado",
     "id": 2, "estado": "Deshabilitado"
