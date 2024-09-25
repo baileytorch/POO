@@ -7,7 +7,7 @@ class Biblioteca():
         self.direccion_biblioteca = direccion_biblioteca
         self.telefono_biblioteca = telefono_biblioteca
     
-    def buscar_libro(self):
+    def buscar_libro(identificacion):
         pass
     
     def prestar_libro(self):
