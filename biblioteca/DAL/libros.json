@@ -1,0 +1,303 @@
+[
+    {
+      "titulo": "Cien años de soledad",
+      "autor": {
+        "nombre": "Gabriel García Márquez",
+        "pais_origen": "Colombia",
+        "fecha_nacimiento": "1927-03-06",
+        "fecha_defuncion": "2014-04-17"
+      },
+      "isbn": "978-0307474728",
+      "edicion": "1ª (Vintage Español, 2009)",
+      "paginas": 496
+    },
+    {
+      "titulo": "Don Quijote de la Mancha",
+      "autor": {
+        "nombre": "Miguel de Cervantes",
+        "pais_origen": "España",
+        "fecha_nacimiento": "1547-09-29",
+        "fecha_defuncion": "1616-04-22"
+      },
+      "isbn": "978-8491050087",
+      "edicion": "1ª (Penguin Clásicos, 2015)",
+      "paginas": 1146
+    },
+    {
+      "titulo": "1984",
+      "autor": {
+        "nombre": "George Orwell",
+        "pais_origen": "Reino Unido",
+        "fecha_nacimiento": "1903-06-25",
+        "fecha_defuncion": "1950-01-21"
+      },
+      "isbn": "978-0451524935",
+      "edicion": "1ª (Signet Classics, 1950)",
+      "paginas": 328
+    },
+    {
+      "titulo": "Orgullo y prejuicio",
+      "autor": {
+        "nombre": "Jane Austen",
+        "pais_origen": "Reino Unido",
+        "fecha_nacimiento": "1775-12-16",
+        "fecha_defuncion": "1817-07-18"
+      },
+      "isbn": "978-0141040349",
+      "edicion": "Penguin Classics (2009)",
+      "paginas": 480
+    },
+    {
+      "titulo": "Matar a un ruiseñor",
+      "autor": {
+        "nombre": "Harper Lee",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1926-04-28",
+        "fecha_defuncion": "2016-02-19"
+      },
+      "isbn": "978-0060935467",
+      "edicion": "Harper Perennial Modern Classics (2006)",
+      "paginas": 336
+    },
+    {
+      "titulo": "Crimen y castigo",
+      "autor": {
+        "nombre": "Fiódor Dostoyevski",
+        "pais_origen": "Rusia",
+        "fecha_nacimiento": "1821-11-11",
+        "fecha_defuncion": "1881-02-09"
+      },
+      "isbn": "978-0199536368",
+      "edicion": "Oxford World's Classics (2008)",
+      "paginas": 720
+    },
+    {
+      "titulo": "El gran Gatsby",
+      "autor": {
+        "nombre": "F. Scott Fitzgerald",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1896-09-24",
+        "fecha_defuncion": "1940-12-21"
+      },
+      "isbn": "978-0743273565",
+      "edicion": "Scribner (2004)",
+      "paginas": 180
+    },
+    {
+      "titulo": "La metamorfosis",
+      "autor": {
+        "nombre": "Franz Kafka",
+        "pais_origen": "Austria",
+        "fecha_nacimiento": "1883-07-03",
+        "fecha_defuncion": "1924-06-03"
+      },
+      "isbn": "978-1613826026",
+      "edicion": "Reprint (Simon & Brown, 2013)",
+      "paginas": 102
+    },
+    {
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "autor": {
+        "nombre": "J.R.R. Tolkien",
+        "pais_origen": "Reino Unido",
+        "fecha_nacimiento": "1892-01-03",
+        "fecha_defuncion": "1973-09-02"
+      },
+      "isbn": "978-0547928210",
+      "edicion": "Mariner Books (2012)",
+      "paginas": 432
+    },
+    {
+      "titulo": "Ulises",
+      "autor": {
+        "nombre": "James Joyce",
+        "pais_origen": "Irlanda",
+        "fecha_nacimiento": "1882-02-02",
+        "fecha_defuncion": "1941-01-13"
+      },
+      "isbn": "978-0199535675",
+      "edicion": "Oxford World's Classics (2008)",
+      "paginas": 933
+    },
+    {
+      "titulo": "El extranjero",
+      "autor": {
+        "nombre": "Albert Camus",
+        "pais_origen": "Francia",
+        "fecha_nacimiento": "1913-11-07",
+        "fecha_defuncion": "1960-01-04"
+      },
+      "isbn": "978-2070360024",
+      "edicion": "Gallimard (1972)",
+      "paginas": 185
+    },
+    {
+      "titulo": "En busca del tiempo perdido",
+      "autor": {
+        "nombre": "Marcel Proust",
+        "pais_origen": "Francia",
+        "fecha_nacimiento": "1871-07-10",
+        "fecha_defuncion": "1922-11-18"
+      },
+      "isbn": "978-2070102020",
+      "edicion": "Gallimard (1987)",
+      "paginas": 4211
+    },
+    {
+      "titulo": "Fahrenheit 451",
+      "autor": {
+        "nombre": "Ray Bradbury",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1920-08-22",
+        "fecha_defuncion": "2012-06-05"
+      },
+      "isbn": "978-1451673319",
+      "edicion": "Simon & Schuster (2012)",
+      "paginas": 249
+    },
+    {
+      "titulo": "El lobo estepario",
+      "autor": {
+        "nombre": "Hermann Hesse",
+        "pais_origen": "Alemania",
+        "fecha_nacimiento": "1877-07-02",
+        "fecha_defuncion": "1962-08-09"
+      },
+      "isbn": "978-0307591920",
+      "edicion": "Picador (2008)",
+      "paginas": 240
+    },
+    {
+      "titulo": "El guardián entre el centeno",
+      "autor": {
+        "nombre": "J.D. Salinger",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1919-01-01",
+        "fecha_defuncion": "2010-01-27"
+      },
+      "isbn": "978-0316769488",
+      "edicion": "Little, Brown and Company (1991)",
+      "paginas": 277
+    },
+    {
+      "titulo": "Madame Bovary",
+      "autor": {
+        "nombre": "Gustave Flaubert",
+        "pais_origen": "Francia",
+        "fecha_nacimiento": "1821-12-12",
+        "fecha_defuncion": "1880-05-08"
+      },
+      "isbn": "978-2070368616",
+      "edicion": "Gallimard (1972)",
+      "paginas": 432
+    },
+    {
+      "titulo": "La Odisea",
+      "autor": {
+        "nombre": "Homero",
+        "pais_origen": "Grecia",
+        "fecha_nacimiento": "Fecha desconocida",
+        "fecha_defuncion": "Fecha desconocida"
+      },
+      "isbn": "978-0140268867",
+      "edicion": "Penguin Classics (1996)",
+      "paginas": 541
+    },
+    {
+      "titulo": "Los miserables",
+      "autor": {
+        "nombre": "Victor Hugo",
+        "pais_origen": "Francia",
+        "fecha_nacimiento": "1802-02-26",
+        "fecha_defuncion": "1885-05-22"
+      },
+      "isbn": "978-2070409029",
+      "edicion": "Gallimard (1985)",
+      "paginas": 1463
+    },
+    {
+      "titulo": "Las aventuras de Huckleberry Finn",
+      "autor": {
+        "nombre": "Mark Twain",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1835-11-30",
+        "fecha_defuncion": "1910-04-21"
+      },
+      "isbn": "978-0486280615",
+      "edicion": "Dover Publications (1994)",
+      "paginas": 224
+    },
+    {
+      "titulo": "El proceso",
+      "autor": {
+        "nombre": "Franz Kafka",
+        "pais_origen": "Austria",
+        "fecha_nacimiento": "1883-07-03",
+        "fecha_defuncion": "1924-06-03"
+      },
+      "isbn": "978-0805209990",
+      "edicion": "Schocken (1995)",
+      "paginas": 304
+    },
+    {
+      "titulo": "Las uvas de la ira",
+      "autor": {
+        "nombre": "John Steinbeck",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1902-02-27",
+        "fecha_defuncion": "1968-12-20"
+      },
+      "isbn": "978-0143039433",
+      "edicion": "Penguin Classics (2006)",
+      "paginas": 464
+    },
+    {
+      "titulo": "Drácula",
+      "autor": {
+        "nombre": "Bram Stoker",
+        "pais_origen": "Irlanda",
+        "fecha_nacimiento": "1847-11-08",
+        "fecha_defuncion": "1912-04-20"
+      },
+      "isbn": "978-0486411095",
+      "edicion": "Dover Publications (2000)",
+      "paginas": 336
+    },
+    {
+      "titulo": "Guerra y paz",
+      "autor": {
+        "nombre": "León Tolstói",
+        "pais_origen": "Rusia",
+        "fecha_nacimiento": "1828-09-09",
+        "fecha_defuncion": "1910-11-20"
+      },
+      "isbn": "978-0199232765",
+      "edicion": "Oxford World's Classics (2008)",
+      "paginas": 1392
+    },
+    {
+      "titulo": "La Divina Comedia",
+      "autor": {
+        "nombre": "Dante Alighieri",
+        "pais_origen": "Italia",
+        "fecha_nacimiento": "1265",
+        "fecha_defuncion": "1321-09-14"
+      },
+      "isbn": "978-0199535644",
+      "edicion": "Oxford World's Classics (2008)",
+      "paginas": 752
+    },
+    {
+      "titulo": "Moby-Dick",
+      "autor": {
+        "nombre": "Herman Melville",
+        "pais_origen": "Estados Unidos",
+        "fecha_nacimiento": "1819-08-01",
+        "fecha_defuncion": "1891-09-28"
+      },
+      "isbn": "978-1503280786",
+      "edicion": "CreateSpace Independent Publishing Platform (2014)",
+      "paginas": 720
+    }
+  ]
+  

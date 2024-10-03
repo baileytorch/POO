@@ -1,0 +1,113 @@
+[
+    {
+      "nombre": "María Fernández",
+      "correo": "maria.fernandez@example.com",
+      "telefono": "+56 9 7654 3210",
+      "rut": "12.345.678-9",
+      "tipo_usuario": {
+        "rol": "funcionario"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Pedro González",
+      "correo": "pedro.gonzalez@example.com",
+      "telefono": "+56 9 8765 4321",
+      "rut": "15.876.543-2",
+      "tipo_usuario": {
+        "rol": "administrador"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Carolina Pérez",
+      "correo": "carolina.perez@example.com",
+      "telefono": "+56 9 6543 9876",
+      "rut": "14.098.765-3",
+      "tipo_usuario": {
+        "rol": "funcionario"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Jorge Ramírez",
+      "correo": "jorge.ramirez@example.com",
+      "telefono": "+56 9 5432 1234",
+      "rut": "11.234.567-1",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": false,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Ana Martínez",
+      "correo": "ana.martinez@example.com",
+      "telefono": "+56 9 4321 5678",
+      "rut": "17.654.321-4",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": false,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Ricardo Soto",
+      "correo": "ricardo.soto@example.com",
+      "telefono": "+56 9 7654 1234",
+      "rut": "13.876.543-2",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Laura Morales",
+      "correo": "laura.morales@example.com",
+      "telefono": "+56 9 9876 5432",
+      "rut": "18.543.210-6",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Felipe Díaz",
+      "correo": "felipe.diaz@example.com",
+      "telefono": "+56 9 6543 8765",
+      "rut": "19.234.567-8",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Camila Araya",
+      "correo": "camila.araya@example.com",
+      "telefono": "+56 9 4321 9876",
+      "rut": "16.345.678-9",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    },
+    {
+      "nombre": "Rodrigo Silva",
+      "correo": "rodrigo.silva@example.com",
+      "telefono": "+56 9 8765 1234",
+      "rut": "20.987.654-7",
+      "tipo_usuario": {
+        "rol": "lector"
+      },
+      "habilitado": true,
+      "fecha_creacion": "2024-10-04 09:30:00"
+    }
+  ]
+  
