@@ -6,6 +6,9 @@ https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=81&c
     Ejecutar en terminal:
         pip install mysql-connector
 
+Para usar un ORM, tenemos una buena opción en orm-mysql:
+https://pypi.org/project/orm-mysql/
+
 Para validación de RUT, usamos rut-chile
 https://pypi.org/project/rut-chile/
     Ejecutar en terminal:
