@@ -11,7 +11,8 @@ class Autor(Paises):
         self.fecha_def = fecha_def
         self.biografia_autor = biografia_autor
         self.foto_autor = foto_autor
-    
+
+    # Manejo de formatos de fecha de acuerdo a lo requerido por MySQL
     def manejo_fechas(fecha):
         fecha_dt = datetime.strptime(fecha, '%d/%m/%Y')
         fecha_str = fecha_dt.strftime('%Y-%m-%d')
