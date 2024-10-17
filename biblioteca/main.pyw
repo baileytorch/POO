@@ -1,4 +1,25 @@
-from tkinter import *
+from os import path
+from DAL.db import generar_conexion
+from DAL.consultas_sql import consulta_1
+
+print("""
+    Seleccione su Opción:
+    1.- Consultar Libros
+    2.- Consultar Editoriales
+    3.- Consultar Autores
+    """)
+accion = input("Ingresa su opción: ")
+
+if accion == '1':
+    generar_conexion('root','','localhost','biblioteca', consulta_1())
+# elif accion == 2:
+#     expression
+# elif accion == 3:
+#     expression
+else:
+    print("Saliendo del sistema...")
+
+""" from tkinter import *
 from tkinter import messagebox
 
 
@@ -120,4 +141,4 @@ Calculator.title("AdictoCalculator")
 Calculator.resizable(False, False)
 Calculator.config(cursor="pencil")
 root = Pycalc(Calculator).grid()
-Calculator.mainloop()
+Calculator.mainloop() """
