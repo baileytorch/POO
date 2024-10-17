@@ -2,9 +2,12 @@
 Clases, Objetos e información relativa a POO en proyecto Biblioteca
 
 Para conectar DB instalamos y usamos XAMPP con Apache y MySQL
-https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=81&codigo=81&inicio=75
+https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
     Ejecutar en terminal:
-        pip install mysql-connector
+        pip install mysql-connector-python
+
+Para usar un ORM, tenemos una buena opción en orm-mysql:
+https://pypi.org/project/orm-mysql/
 
 Para validación de RUT, usamos rut-chile
 https://pypi.org/project/rut-chile/
