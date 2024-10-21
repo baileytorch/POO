@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS detalle_libro (
     isbn VARCHAR(13) NOT NULL,
     fecha_edicion DATE,
     id_editorial INT NOT NULL,
-    numero_paginas SMALLINT NOT NULL,
+    numero_paginas SMALLINT NULL DEFAULT 0,
     id_categoria_libro VARCHAR(255),
     cantidad_ejemplares SMALLINT NOT NULL,
     ejemplares_disponibles SMALLINT NOT NULL,
