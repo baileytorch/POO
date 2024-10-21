@@ -43,3 +43,7 @@ bootstrap: https://ttkbootstrap.readthedocs.io/en/version-0.5/index.html
 Para cambiar temas: https://youtu.be/OPyRdmMQYOA
 
 CRUD: https://youtu.be/UdIx9g5X1wQ
+
+Gabriel Muñoz
+Marco Calfileo
+Revisar trabajos
