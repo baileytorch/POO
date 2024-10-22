@@ -25,5 +25,5 @@ elif accion == '3':
 else:
     print("Saliendo del sistema...")
 
-# Para hace una isntancia de clase
+# Para hace una instancia de clase
 # objeto = MiClase()
