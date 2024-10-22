@@ -13,8 +13,11 @@ def generar_conexion(user,password,server,database, consulta):
         if conexion and conexion.is_connected():
             cursor = conexion.cursor()
             cursor.execute(consulta)
-            for registro in cursor:
-                print(registro)
+            if cursor != None:
+                for registro in cursor:
+                    print(registro)
+            else:
+                print("Su búsqueda no arrojó resultados...")
             conexion.close()
         else:
             print("Could not connect")

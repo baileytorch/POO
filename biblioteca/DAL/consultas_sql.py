@@ -19,3 +19,7 @@ def consulta_1():
     JOIN tipo_categoria T ON C.id_tipo_categoria = T.id_tipo_categoria;
     """)
     return consulta1
+
+def consulta_3(seudonimo):
+    consulta_3 = (f"""SELECT * FROM AUTOR WHERE seudonimo_autor LIKE '%{seudonimo}%'""")
+    return consulta_3
