@@ -1,4 +1,6 @@
 # POO
+Info inicial de POO:
+https://j2logo.com/python/tutorial/programacion-orientada-a-objetos/
 
 Clases, Objetos e información relativa a POO en proyecto Biblioteca
 
