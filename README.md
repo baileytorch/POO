@@ -4,6 +4,8 @@ Clases, Objetos e información relativa a POO en proyecto Biblioteca
 
 Para conectar DB instalamos y usamos XAMPP con Apache y MySQL
 https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
+
+Para conectar a DB usamos mysql-coonector-python
 Ejecutar en terminal:
 pip install mysql-connector-python
 
@@ -43,7 +45,3 @@ bootstrap: https://ttkbootstrap.readthedocs.io/en/version-0.5/index.html
 Para cambiar temas: https://youtu.be/OPyRdmMQYOA
 
 CRUD: https://youtu.be/UdIx9g5X1wQ
-
-Gabriel Muñoz
-Marco Calfileo
-Revisar trabajos
