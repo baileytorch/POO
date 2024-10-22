@@ -24,3 +24,6 @@ elif accion == '3':
     generar_conexion('root','','localhost','biblioteca', consulta_3(seudonimo))
 else:
     print("Saliendo del sistema...")
+
+# Para hace una isntancia de clase
+# objeto = MiClase()
