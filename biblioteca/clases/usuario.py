@@ -1,11 +1,11 @@
-import paises
-import tipo_usuario
+from paises import Pais as pais
+from tipo_usuario import Tipo_Usuario as tipo_usuario
 import re
 from rut_chile import rut_chile
 
-class Usuario(paises, tipo_usuario):
+class Usuario(pais, tipo_usuario):
     def __init__(self, id_usuario, nombre_usuario, correo_usuario, telefono_usuario, rut_usuario, codigo_pais, habilitado, id_tipo_usuario, fecha_creacion):
-        paises.__init__(codigo_pais)
+        pais.__init__(codigo_pais)
         tipo_usuario.__init__(id_tipo_usuario)
         self.id_usuario = id_usuario
         self.nombre_usuario = nombre_usuario

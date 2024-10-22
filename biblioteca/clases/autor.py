@@ -1,9 +1,9 @@
 from datetime import datetime
-import Pais
+from paises import Pais as pais
 
-class Autor(Pais):
+class Autor(pais):
     def __init__(self, id_autor, nombre_autor, seudonimo_autor, codigo_pais, fecha_nac, fecha_def, biografia_autor, foto_autor):
-        paises.Paises().__init__(codigo_pais)
+        pais.__init__(codigo_pais)
         self.id_autor = id_autor
         self.nombre_autor = nombre_autor
         self.seudonimo_autor = seudonimo_autor

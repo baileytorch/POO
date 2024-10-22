@@ -1,11 +1,11 @@
 from datetime import datetime, timedelta
 from auxiliares import constantes
-import detalle_libro
-import usuario
+from detalle_libro import DetalleLibro as deta_lib
+from usuario import Usuario as usuario
 
-class Prestamo(detalle_libro, usuario):
+class Prestamo(deta_lib, usuario):
     def __init__(self, id_prestamo, isbn, id_usuario, fecha_prestamo, fecha_devolucion, fecha_devuelto, cantidad_solicitada):
-        detalle_libro.__init__(isbn)
+        deta_lib.__init__(isbn)
         usuario.__init__(id_usuario)
         self.id_prestamo = id_prestamo
         self.fecha_prestamo = fecha_prestamo
