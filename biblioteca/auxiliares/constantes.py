@@ -23,3 +23,8 @@ festivos = {
     datetime(datetime.now().year, 12, 8),
     datetime(datetime.now().year, 12, 25),
 }
+
+servidor_db_biblioteca = 'localhost'
+usuario_db_biblioteca = 'root'
+contrasena_db_biblioteca = ''
+db_biblioteca = 'biblioteca'
