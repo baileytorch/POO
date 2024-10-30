@@ -5,8 +5,8 @@ from rut_chile import rut_chile
 
 class Usuario(pais, tipo_usuario):
     def __init__(self, id_usuario, nombre_usuario, correo_usuario, telefono_usuario, rut_usuario, codigo_pais, habilitado, id_tipo_usuario, fecha_creacion):
-        pais.__init__(codigo_pais)
-        tipo_usuario.__init__(id_tipo_usuario)
+        super().__init__(codigo_pais)
+        super().__init__(id_tipo_usuario)
         self.id_usuario = id_usuario
         self.nombre_usuario = nombre_usuario
         self.correo_usuario = correo_usuario

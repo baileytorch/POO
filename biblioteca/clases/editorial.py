@@ -1,9 +1,9 @@
 import re
 from paises import Pais as pais
 
-class Editorial():
+class Editorial(pais):
     def __init__(self, id_editorial, nombre_editorial, fecha_fundacion, codigo_pais, telefono_contacto, correo_contacto):
-        pais.__init__(codigo_pais)
+        super().__init__(codigo_pais)
         self.id_editorial = id_editorial
         self.nombre_editorial = nombre_editorial
         self.fecha_fundacion = fecha_fundacion

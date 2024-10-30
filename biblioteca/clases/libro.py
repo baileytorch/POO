@@ -1,4 +1,4 @@
-import autor
+from autor import Autor as autor
 
 class Libro(autor):
     def __init__(self, isbn, titulo, id_autor):

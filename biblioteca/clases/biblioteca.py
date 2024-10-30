@@ -1,6 +1,6 @@
 from libro import Libro as lib
 
-class Biblioteca():
+class Biblioteca:
     def __init__(self, id_biblioteca, nombre_biblioteca, direccion_biblioteca, telefono_biblioteca):
         self.id_biblioteca = id_biblioteca
         self.nombre_biblioteca = nombre_biblioteca

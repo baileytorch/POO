@@ -1,7 +1,7 @@
 from datetime import datetime
-from DAL.db_autor import listado_autores as lista_autores, obtener_autor_seudonimo as autor_seudonimo
+from DAL.db_autor import listado_autores as lista_autores, obtener_autor_seudonimo as autor_seudonimo, crear_autor as creacion_autor
 from auxiliares.constantes import servidor_db_biblioteca as servidor,  usuario_db_biblioteca as usuario, contrasena_db_biblioteca as contrasena, db_biblioteca as base_datos
-from clases.autor import Autor
+from clases.autor import Autor as autor
 
 def manejo_autor():
         print("""
@@ -29,14 +29,20 @@ def buscar_autor_seudonimo():
     autor_seudonimo(servidor, usuario, contrasena, base_datos, seudonimo)
 
 def crear_autor():
-    nuevo_autor = Autor()
+    nuevo_autor = autor()
     print("Ingrese los datos del Autor")
     nuevo_autor.nombre_autor = input("Nombre Autor: ")
     nuevo_autor.seudonimo_autor = input("Seudónimo Autor: ")
     fecha_nac = input("Fecha Nacimiento: ")
-    fecha_nac_dt = datetime.strptime(fecha_nac, '%d/%m/%Y')
-    nuevo_autor.fecha_nac = fecha_nac_dt.strftime('%Y-%m-%d')
+    if fecha_nac:
+        fecha_nac_dt = datetime.strptime(fecha_nac, '%d/%m/%Y')
+        nuevo_autor.fecha_nac = fecha_nac_dt.strftime('%Y-%m-%d')
+    else:
+        nuevo_autor.fecha_nac = 'NULL'
     fecha_def = input("Fecha Defunción: ")
-    fecha_def_dt = datetime.strptime(fecha_def, '%d/%m/%Y')
-    nuevo_autor.fecha_def = fecha_def_dt.strftime('%Y-%m-%d')
-    pass
+    if fecha_def:
+        fecha_def_dt = datetime.strptime(fecha_def, '%d/%m/%Y')
+        nuevo_autor.fecha_def = fecha_def_dt.strftime('%Y-%m-%d')
+    else:
+        nuevo_autor.fecha_def = 'NULL'
+    creacion_autor(servidor, usuario, contrasena, base_datos, nuevo_autor)

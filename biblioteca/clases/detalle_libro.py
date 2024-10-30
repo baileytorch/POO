@@ -1,10 +1,10 @@
-from libro import Libro as lib
-from editorial import Editorial as edit
+from libro import Libro as libro
+from editorial import Editorial as editorial
 
-class DetalleLibro(lib, edit):
+class DetalleLibro(libro, editorial):
     def __init__(self, id_detalle_libro, isbn, fecha_edicion, id_editorial, numero_paginas, id_categoria_libro, cantidad_ejemplares, ejemplares_disponibles):
-        lib.__init__(isbn)
-        edit.__init__(id_editorial)
+        super().__init__(isbn)
+        super().__init__(id_editorial)
         self.id_detalle_libro = id_detalle_libro
         self.fecha_edicion = fecha_edicion
         self.numero_paginas = numero_paginas

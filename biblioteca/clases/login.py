@@ -1,5 +1,5 @@
-from usuario import Usuario as user
+from usuario import Usuario as usuario
 
-class Login():
+class Login(usuario):
     def __init__(nombre_usuario, contrasena):
-        user.__init__(nombre_usuario, contrasena)
+        super().__init__(nombre_usuario, contrasena)
